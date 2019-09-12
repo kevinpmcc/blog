@@ -6,9 +6,9 @@ This session will primarily be hands-on playing with fragment caching in Rails.
 ## Setup  
 <code>git clone https://github.com/kevinpmcc/blog.git && cd blog</code>  
 
-<code>rake db:setup</code>  
-
 <code>bundle install</code>  
+
+<code>rake db:setup</code>  
 
 <code>rails s</code>
 
