@@ -12,6 +12,14 @@ This session will primarily be hands-on playing with fragment caching in Rails.
 
 <code>rails s</code>
 
+### errors? 
+if you get 'find_spec_for_exe': can't find gem bundler (>= 0.a) try
+<code>
+  gem i bundler -v 2.0.2
+</code>
+
+
+
 ## Your task
 As the webmaster of the internets favourite Game Of Thrones themed blog you have been seeing an increase in traffic. Your servers are struggling and users are complaining that sometimes its take almost half a second to see a page! You have been hearing about caching and want to see if you could benefit from it on the articles#index page. 
 
