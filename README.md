@@ -33,7 +33,7 @@ Sections 1.3 Fragment Caching, and 1.4 Russian Doll Caching
 These sections contain everything we need for this task.  
 
 
-#Post task topics
+## Post task topics
 What do you imagine the cache method in Rails looks like?  
 
 What does the cache store look like, what is the key value pair?  
