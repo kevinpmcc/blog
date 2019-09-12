@@ -1,0 +1,4016 @@
+<% if false %>
+  <div style="border:5px solid pink;">
+    <h1>All Articles</h1>
+    <% @articles.each do |article| %>
+      <div>
+        <%= link_to article.title %>
+        Commenters: <%= article.comments.map(&:commenter).join(', ') %>
+    </div>
+  <% end %>
+  </div>
+
+<% else %>
+<div style="border:5px solid pink;">
+    <h1>All Articles</h1>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Chad Michaels
+    </div>
+      <div>
+        <a href="/articles">Silence...I&#39;ve made my decision.</a>
+        Commenters: Alyssa Edwards
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Raja
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Jessica Wild
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Peppermint
+    </div>
+      <div>
+        <a href="/articles">Extravaganza eleganza!</a>
+        Commenters: Shuga Cain
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Acid Betty
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Pandora Boxx
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Trixie Mattel
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Carmen Carrera
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Delta Work
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Asia O&#39;Hara
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Coco Montrese
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Sharon Needles
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Ivy Winters
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Roxxxy Andrews
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: Alyssa Edwards
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Delta Work
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Ra&#39;jah O&#39;Hara
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Brook Lynn Hytes
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Monique Heart
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Trixie Mattel
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Jessica Wild
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: BenDeLaCreme
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Ariel Versace
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Dida Ritz
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Monique Heart
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Violet Chachki
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Katya
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Acid Betty
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Monet X Change
+    </div>
+      <div>
+        <a href="/articles">You betta work.</a>
+        Commenters: Chad Michaels
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Tyra Sanchez
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Robbie Turner
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Sasha Velour
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Trixie Mattel
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Thorgy Thor
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Shea Coulee
+    </div>
+      <div>
+        <a href="/articles">Extravaganza eleganza!</a>
+        Commenters: Aja
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Blair St. Clair
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Phi Phi O&#39;Hara
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Shuga Cain
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Courtney Act
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Detox
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Darienne Lake
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Asia O&#39;Hara
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Kenya Michaels
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Ivy Winters
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: A&#39;keria Chanel Davenport
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Sahara Davenport
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Silky Nutmeg Ganache
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Alexis Michelle
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Joslyn Fox
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Sahara Davenport
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Jiggly Caliente
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Jinkx Monsoon
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Aquaria
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Tyra Sanchez
+    </div>
+      <div>
+        <a href="/articles">Life is about using the whole box of crayons.</a>
+        Commenters: Kim Chi
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Monet X Change
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Ariel Versace
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Miss Fame
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Darienne Lake
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Yvie Oddly
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Eureka
+    </div>
+      <div>
+        <a href="/articles">I&#39;m sorry, my dear, but you are up for elimination.</a>
+        Commenters: Jinkx Monsoon
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Yara Sofia
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Phi Phi O&#39;Hara
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Joslyn Fox
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Morgan McMichaels
+    </div>
+      <div>
+        <a href="/articles">Silence...I&#39;ve made my decision.</a>
+        Commenters: Bob The Drag Queen
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Valentina
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Naomi Smalls
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Yvie Oddly
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Bianca Del Rio
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Joslyn Fox
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Manila Luzon
+    </div>
+      <div>
+        <a href="/articles">Life is about using the whole box of crayons.</a>
+        Commenters: Aquaria
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Cynthia Lee Fontaine
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Sasha Velour
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Jiggly Caliente
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Nina Bonina Brown
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Monet X Change
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Milk
+    </div>
+      <div>
+        <a href="/articles">Silence...I&#39;ve made my decision.</a>
+        Commenters: Ivy Winters
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Roxxxy Andrews
+    </div>
+      <div>
+        <a href="/articles">Extravaganza eleganza!</a>
+        Commenters: Aquaria
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Brook Lynn Hytes
+    </div>
+      <div>
+        <a href="/articles">You betta work.</a>
+        Commenters: Gia Gunn
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Valentina
+    </div>
+      <div>
+        <a href="/articles">Silence...I&#39;ve made my decision.</a>
+        Commenters: Darienne Lake
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: The Vixen
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Raja
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Alaska
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Trinity Taylor
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: Vanessa Vanjie Mateo
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Courtney Act
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Yara Sofia
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Valentina
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Detox
+    </div>
+      <div>
+        <a href="/articles">Must be jelly &#39;cause jam don&#39;t shake.</a>
+        Commenters: Alexis Mateo
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Roxxxy Andrews
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Katya
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Delta Work
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Acid Betty
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Chi Chi DeVayne
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Katya
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Carmen Carrera
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Violet Chachki
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Gia Gunn
+    </div>
+      <div>
+        <a href="/articles">Life is about using the whole box of crayons.</a>
+        Commenters: Farrah Moan
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Nina West
+    </div>
+      <div>
+        <a href="/articles">You betta work.</a>
+        Commenters: Joslyn Fox
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Asia O&#39;Hara
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Aquaria
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Shuga Cain
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: Cynthia Lee Fontaine
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Kameron Michaels
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Sasha Velour
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: The Vixen
+    </div>
+      <div>
+        <a href="/articles">Silence...I&#39;ve made my decision.</a>
+        Commenters: Courtney Act
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Kennedy Davenport
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Eureka
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Shangela Wadley
+    </div>
+      <div>
+        <a href="/articles">You betta work.</a>
+        Commenters: Silky Nutmeg Ganache
+    </div>
+      <div>
+        <a href="/articles">Life is about using the whole box of crayons.</a>
+        Commenters: Mayhem Miller
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Monet X Change
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Derrick Barry
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: BenDeLaCreme
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Scarlet Envy
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Courtney Act
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Bianca Del Rio
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: Chi Chi DeVayne
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Pandora Boxx
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Thorgy Thor
+    </div>
+      <div>
+        <a href="/articles">Silence...I&#39;ve made my decision.</a>
+        Commenters: Raja
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Trinity Taylor
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Phi Phi O&#39;Hara
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Willam
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Shuga Cain
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Ra&#39;jah O&#39;Hara
+    </div>
+      <div>
+        <a href="/articles">Must be jelly &#39;cause jam don&#39;t shake.</a>
+        Commenters: Derrick Barry
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Trinity Taylor
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Trinity Taylor
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Willam
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Kameron Michaels
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Miss Fame
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Miss Fame
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Plastique Tiara
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Alexis Michelle
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Roxxxy Andrews
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: BenDeLaCreme
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Trinity Taylor
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Morgan McMichaels
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Nina West
+    </div>
+      <div>
+        <a href="/articles">Life is about using the whole box of crayons.</a>
+        Commenters: Joslyn Fox
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Trinity Taylor
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Chi Chi DeVayne
+    </div>
+      <div>
+        <a href="/articles">I&#39;m sorry, my dear, but you are up for elimination.</a>
+        Commenters: Carmen Carrera
+    </div>
+      <div>
+        <a href="/articles">Extravaganza eleganza!</a>
+        Commenters: Sharon Needles
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Yara Sofia
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Joslyn Fox
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Kim Chi
+    </div>
+      <div>
+        <a href="/articles">You betta work.</a>
+        Commenters: Nina West
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Ivy Winters
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Tyra Sanchez
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Ivy Winters
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Nina West
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Monet X Change
+    </div>
+      <div>
+        <a href="/articles">Must be jelly &#39;cause jam don&#39;t shake.</a>
+        Commenters: Brook Lynn Hytes
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: A&#39;keria Chanel Davenport
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Valentina
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Shangela Wadley
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Carmen Carrera
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Trinity Taylor
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Farrah Moan
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Violet Chachki
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Yvie Oddly
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Jiggly Caliente
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Miz Cracker
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: Trinity K Bonet
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Kenya Michaels
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Yara Sofia
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Trixie Mattel
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Chi Chi DeVayne
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Delta Work
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Adore Delano
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Kennedy Davenport
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: BenDeLaCreme
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Trinity Taylor
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Asia O&#39;Hara
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Vanessa Vanjie Mateo
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Nina West
+    </div>
+      <div>
+        <a href="/articles">Extravaganza eleganza!</a>
+        Commenters: Monet X Change
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Trixie Mattel
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Joslyn Fox
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Raja
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Dida Ritz
+    </div>
+      <div>
+        <a href="/articles">Must be jelly &#39;cause jam don&#39;t shake.</a>
+        Commenters: Sharon Needles
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Raja
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Mayhem Miller
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Jinkx Monsoon
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Coco Montrese
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: Yvie Oddly
+    </div>
+      <div>
+        <a href="/articles">Life is about using the whole box of crayons.</a>
+        Commenters: Roxxxy Andrews
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Yara Sofia
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Vanessa Vanjie Mateo
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Scarlet Envy
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Nina Bonina Brown
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Shea Coulee
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Roxxxy Andrews
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Peppermint
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Jessica Wild
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Naomi Smalls
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Katya
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Carmen Carrera
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Aquaria
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Alaska
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Shea Coulee
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Silky Nutmeg Ganache
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Tyra Sanchez
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Tyra Sanchez
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Raja
+    </div>
+      <div>
+        <a href="/articles">Extravaganza eleganza!</a>
+        Commenters: Roxxxy Andrews
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: Mercedes Iman Diamond
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Jessica Wild
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Ra&#39;jah O&#39;Hara
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Jujubee
+    </div>
+      <div>
+        <a href="/articles">Silence...I&#39;ve made my decision.</a>
+        Commenters: Yara Sofia
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Nina West
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Eureka
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Ivy Winters
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Roxxxy Andrews
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Cynthia Lee Fontaine
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Pearl
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Morgan McMichaels
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Courtney Act
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Latrice Royale
+    </div>
+      <div>
+        <a href="/articles">I&#39;m sorry, my dear, but you are up for elimination.</a>
+        Commenters: Raven
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Kennedy Davenport
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Darienne Lake
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Mercedes Iman Diamond
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Violet Chachki
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Jessica Wild
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Jessica Wild
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Shuga Cain
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Cynthia Lee Fontaine
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Miz Cracker
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Monique Heart
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Shangela Wadley
+    </div>
+      <div>
+        <a href="/articles">I&#39;m sorry, my dear, but you are up for elimination.</a>
+        Commenters: Courtney Act
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Shea Coulee
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Ivy Winters
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: BenDeLaCreme
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Milk
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Miz Cracker
+    </div>
+      <div>
+        <a href="/articles">I&#39;m sorry, my dear, but you are up for elimination.</a>
+        Commenters: Kameron Michaels
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Vanessa Vanjie Mateo
+    </div>
+      <div>
+        <a href="/articles">Extravaganza eleganza!</a>
+        Commenters: Plastique Tiara
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Dida Ritz
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Ra&#39;jah O&#39;Hara
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Robbie Turner
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Tatianna
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: A&#39;keria Chanel Davenport
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Jiggly Caliente
+    </div>
+      <div>
+        <a href="/articles">Silence...I&#39;ve made my decision.</a>
+        Commenters: Detox
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Shea Coulee
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Scarlet Envy
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Pandora Boxx
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Derrick Barry
+    </div>
+      <div>
+        <a href="/articles">You betta work.</a>
+        Commenters: Ariel Versace
+    </div>
+      <div>
+        <a href="/articles">Must be jelly &#39;cause jam don&#39;t shake.</a>
+        Commenters: Thorgy Thor
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Mayhem Miller
+    </div>
+      <div>
+        <a href="/articles">Must be jelly &#39;cause jam don&#39;t shake.</a>
+        Commenters: Roxxxy Andrews
+    </div>
+      <div>
+        <a href="/articles">Life is about using the whole box of crayons.</a>
+        Commenters: Bob The Drag Queen
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Latrice Royale
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Shuga Cain
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Jujubee
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Yvie Oddly
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Gia Gunn
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Ginger Minj
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Alexis Michelle
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Dida Ritz
+    </div>
+      <div>
+        <a href="/articles">Must be jelly &#39;cause jam don&#39;t shake.</a>
+        Commenters: Bob The Drag Queen
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Jujubee
+    </div>
+      <div>
+        <a href="/articles">I&#39;m sorry, my dear, but you are up for elimination.</a>
+        Commenters: Pandora Boxx
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Monet X Change
+    </div>
+      <div>
+        <a href="/articles">Extravaganza eleganza!</a>
+        Commenters: Miz Cracker
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Mercedes Iman Diamond
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Detox
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Monique Heart
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Shangela Wadley
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Pearl
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Pearl
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Yvie Oddly
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Detox
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Courtney Act
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Miz Cracker
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Ra&#39;jah O&#39;Hara
+    </div>
+      <div>
+        <a href="/articles">Life is about using the whole box of crayons.</a>
+        Commenters: Laganja Estranja
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Robbie Turner
+    </div>
+      <div>
+        <a href="/articles">Must be jelly &#39;cause jam don&#39;t shake.</a>
+        Commenters: Ginger Minj
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Monique Heart
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Miss Fame
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Derrick Barry
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Darienne Lake
+    </div>
+      <div>
+        <a href="/articles">Must be jelly &#39;cause jam don&#39;t shake.</a>
+        Commenters: Gia Gunn
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Mimi Imfurst
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: Darienne Lake
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Manila Luzon
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Sharon Needles
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Yvie Oddly
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Cynthia Lee Fontaine
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Monique Heart
+    </div>
+      <div>
+        <a href="/articles">Extravaganza eleganza!</a>
+        Commenters: Silky Nutmeg Ganache
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Alyssa Edwards
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Vanessa Vanjie Mateo
+    </div>
+      <div>
+        <a href="/articles">Silence...I&#39;ve made my decision.</a>
+        Commenters: Farrah Moan
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Raja
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Peppermint
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Sharon Needles
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Darienne Lake
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Pandora Boxx
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Jiggly Caliente
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Monique Heart
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Cynthia Lee Fontaine
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Trixie Mattel
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Raven
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Asia O&#39;Hara
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Chi Chi DeVayne
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Latrice Royale
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: BenDeLaCreme
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Nina Bonina Brown
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Derrick Barry
+    </div>
+      <div>
+        <a href="/articles">I&#39;m sorry, my dear, but you are up for elimination.</a>
+        Commenters: Manila Luzon
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Kenya Michaels
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Yvie Oddly
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Alexis Mateo
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Bob The Drag Queen
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Latrice Royale
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Nina West
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Morgan McMichaels
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Adore Delano
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Jujubee
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Delta Work
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Monique Heart
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Latrice Royale
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Gia Gunn
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Blair St. Clair
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Aquaria
+    </div>
+      <div>
+        <a href="/articles">Must be jelly &#39;cause jam don&#39;t shake.</a>
+        Commenters: Delta Work
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Alaska
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Monet X Change
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Phi Phi O&#39;Hara
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Jinkx Monsoon
+    </div>
+      <div>
+        <a href="/articles">Silence...I&#39;ve made my decision.</a>
+        Commenters: Ariel Versace
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Tatianna
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Jujubee
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Nina Bonina Brown
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Trixie Mattel
+    </div>
+      <div>
+        <a href="/articles">I&#39;m sorry, my dear, but you are up for elimination.</a>
+        Commenters: Derrick Barry
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Trinity K Bonet
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Roxxxy Andrews
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Peppermint
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Trixie Mattel
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Tatianna
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Pearl
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Willam
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Scarlet Envy
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: Yara Sofia
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Latrice Royale
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Mimi Imfurst
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Morgan McMichaels
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Phi Phi O&#39;Hara
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Jinkx Monsoon
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Milk
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Ginger Minj
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Coco Montrese
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Eureka
+    </div>
+      <div>
+        <a href="/articles">You betta work.</a>
+        Commenters: Mercedes Iman Diamond
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Plastique Tiara
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Thorgy Thor
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Ivy Winters
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Monique Heart
+    </div>
+      <div>
+        <a href="/articles">Extravaganza eleganza!</a>
+        Commenters: Darienne Lake
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Miss Fame
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Kim Chi
+    </div>
+      <div>
+        <a href="/articles">Must be jelly &#39;cause jam don&#39;t shake.</a>
+        Commenters: Valentina
+    </div>
+      <div>
+        <a href="/articles">I&#39;m sorry, my dear, but you are up for elimination.</a>
+        Commenters: Aja
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: BenDeLaCreme
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Jessica Wild
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Kennedy Davenport
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Tyra Sanchez
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Miss Fame
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Roxxxy Andrews
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Miz Cracker
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: Aja
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Robbie Turner
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Stacy Layne Matthews
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Sharon Needles
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: The Vixen
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Katya
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Latrice Royale
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Manila Luzon
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Robbie Turner
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Ginger Minj
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: Shea Coulee
+    </div>
+      <div>
+        <a href="/articles">Life is about using the whole box of crayons.</a>
+        Commenters: Trinity K Bonet
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Gia Gunn
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Laganja Estranja
+    </div>
+      <div>
+        <a href="/articles">Must be jelly &#39;cause jam don&#39;t shake.</a>
+        Commenters: Detox
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Trixie Mattel
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Jujubee
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Alexis Mateo
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Sasha Velour
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Manila Luzon
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Alexis Michelle
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Coco Montrese
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Trixie Mattel
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Chi Chi DeVayne
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Aja
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Yara Sofia
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Kenya Michaels
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Pearl
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Mercedes Iman Diamond
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Ariel Versace
+    </div>
+      <div>
+        <a href="/articles">You betta work.</a>
+        Commenters: Alexis Mateo
+    </div>
+      <div>
+        <a href="/articles">Life is about using the whole box of crayons.</a>
+        Commenters: Mercedes Iman Diamond
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Violet Chachki
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Nina West
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Brook Lynn Hytes
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Katya
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Bianca Del Rio
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Ginger Minj
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Aquaria
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Morgan McMichaels
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Willam
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Mimi Imfurst
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Trixie Mattel
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Aquaria
+    </div>
+      <div>
+        <a href="/articles">Life is about using the whole box of crayons.</a>
+        Commenters: Monique Heart
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Carmen Carrera
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Latrice Royale
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Milk
+    </div>
+      <div>
+        <a href="/articles">Life is about using the whole box of crayons.</a>
+        Commenters: Chi Chi DeVayne
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Courtney Act
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Sharon Needles
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Mayhem Miller
+    </div>
+      <div>
+        <a href="/articles">You betta work.</a>
+        Commenters: Mimi Imfurst
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Willam
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Coco Montrese
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Miss Fame
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Shea Coulee
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Yvie Oddly
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Aquaria
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Alaska
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Cynthia Lee Fontaine
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Alaska
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Aja
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Delta Work
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Valentina
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Manila Luzon
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Mimi Imfurst
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: Alaska
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Ra&#39;jah O&#39;Hara
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Mimi Imfurst
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Silky Nutmeg Ganache
+    </div>
+      <div>
+        <a href="/articles">I&#39;m sorry, my dear, but you are up for elimination.</a>
+        Commenters: Derrick Barry
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Mayhem Miller
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Kenya Michaels
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Manila Luzon
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Monique Heart
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Delta Work
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Delta Work
+    </div>
+      <div>
+        <a href="/articles">Life is about using the whole box of crayons.</a>
+        Commenters: Tatianna
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Kim Chi
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Naomi Smalls
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Naomi Smalls
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Trinity Taylor
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Detox
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Kenya Michaels
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Pearl
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Jujubee
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Peppermint
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Manila Luzon
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Willam
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Bob The Drag Queen
+    </div>
+      <div>
+        <a href="/articles">I&#39;m sorry, my dear, but you are up for elimination.</a>
+        Commenters: Monet X Change
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Latrice Royale
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Raven
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Ariel Versace
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Carmen Carrera
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Jinkx Monsoon
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Stacy Layne Matthews
+    </div>
+      <div>
+        <a href="/articles">Must be jelly &#39;cause jam don&#39;t shake.</a>
+        Commenters: Trinity Taylor
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Chi Chi DeVayne
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Ivy Winters
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Acid Betty
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Alyssa Edwards
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Kim Chi
+    </div>
+      <div>
+        <a href="/articles">Silence...I&#39;ve made my decision.</a>
+        Commenters: Bianca Del Rio
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Tyra Sanchez
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Coco Montrese
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Miss Fame
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Carmen Carrera
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Stacy Layne Matthews
+    </div>
+      <div>
+        <a href="/articles">Life is about using the whole box of crayons.</a>
+        Commenters: Shea Coulee
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Alexis Michelle
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Nina Bonina Brown
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Detox
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Sasha Velour
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Chi Chi DeVayne
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Coco Montrese
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Coco Montrese
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Kenya Michaels
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: Vanessa Vanjie Mateo
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Vanessa Vanjie Mateo
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Naomi Smalls
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Bob The Drag Queen
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Nina West
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Tatianna
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Roxxxy Andrews
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Delta Work
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Bianca Del Rio
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Scarlet Envy
+    </div>
+      <div>
+        <a href="/articles">Extravaganza eleganza!</a>
+        Commenters: Morgan McMichaels
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Alexis Mateo
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Jessica Wild
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Cynthia Lee Fontaine
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Trinity Taylor
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Adore Delano
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Willam
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Sharon Needles
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Farrah Moan
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Katya
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Pearl
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Kennedy Davenport
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Ivy Winters
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Plastique Tiara
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Tyra Sanchez
+    </div>
+      <div>
+        <a href="/articles">You betta work.</a>
+        Commenters: Mimi Imfurst
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Roxxxy Andrews
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Yara Sofia
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Katya
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Farrah Moan
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Trixie Mattel
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Raven
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Tatianna
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Tatianna
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Yara Sofia
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Jujubee
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: Bianca Del Rio
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Milk
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Aja
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Raven
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Blair St. Clair
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: Darienne Lake
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Bianca Del Rio
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Aquaria
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Gia Gunn
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Monique Heart
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Gia Gunn
+    </div>
+      <div>
+        <a href="/articles">Must be jelly &#39;cause jam don&#39;t shake.</a>
+        Commenters: Shea Coulee
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Carmen Carrera
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: Trinity K Bonet
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: Ivy Winters
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Peppermint
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Vanessa Vanjie Mateo
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Ra&#39;jah O&#39;Hara
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Monet X Change
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Detox
+    </div>
+      <div>
+        <a href="/articles">Extravaganza eleganza!</a>
+        Commenters: Cynthia Lee Fontaine
+    </div>
+      <div>
+        <a href="/articles">I&#39;m sorry, my dear, but you are up for elimination.</a>
+        Commenters: Jessica Wild
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Raven
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Vanessa Vanjie Mateo
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Raja
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Aja
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Vanessa Vanjie Mateo
+    </div>
+      <div>
+        <a href="/articles">Must be jelly &#39;cause jam don&#39;t shake.</a>
+        Commenters: Laganja Estranja
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Ivy Winters
+    </div>
+      <div>
+        <a href="/articles">Silence...I&#39;ve made my decision.</a>
+        Commenters: Phi Phi O&#39;Hara
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Alexis Michelle
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Tyra Sanchez
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Joslyn Fox
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Sasha Velour
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Vanessa Vanjie Mateo
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Kennedy Davenport
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Alyssa Edwards
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Latrice Royale
+    </div>
+      <div>
+        <a href="/articles">I&#39;m sorry, my dear, but you are up for elimination.</a>
+        Commenters: Mercedes Iman Diamond
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Naomi Smalls
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Alaska
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Acid Betty
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Alexis Michelle
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Cynthia Lee Fontaine
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Yara Sofia
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Nina West
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Mimi Imfurst
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Naomi Smalls
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: The Vixen
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Yara Sofia
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Alyssa Edwards
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Milk
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Ivy Winters
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Jiggly Caliente
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Joslyn Fox
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Aquaria
+    </div>
+      <div>
+        <a href="/articles">I&#39;m sorry, my dear, but you are up for elimination.</a>
+        Commenters: Jessica Wild
+    </div>
+      <div>
+        <a href="/articles">Must be jelly &#39;cause jam don&#39;t shake.</a>
+        Commenters: Latrice Royale
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Sahara Davenport
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Shea Coulee
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Alexis Mateo
+    </div>
+      <div>
+        <a href="/articles">Extravaganza eleganza!</a>
+        Commenters: Alyssa Edwards
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Raven
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Adore Delano
+    </div>
+      <div>
+        <a href="/articles">Silence...I&#39;ve made my decision.</a>
+        Commenters: Farrah Moan
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Bob The Drag Queen
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Nina West
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Kenya Michaels
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Chad Michaels
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Tyra Sanchez
+    </div>
+      <div>
+        <a href="/articles">Must be jelly &#39;cause jam don&#39;t shake.</a>
+        Commenters: Kenya Michaels
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Shuga Cain
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Trinity Taylor
+    </div>
+      <div>
+        <a href="/articles">Life is about using the whole box of crayons.</a>
+        Commenters: Jinkx Monsoon
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: Morgan McMichaels
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Yara Sofia
+    </div>
+      <div>
+        <a href="/articles">Life is about using the whole box of crayons.</a>
+        Commenters: Nina Bonina Brown
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: The Vixen
+    </div>
+      <div>
+        <a href="/articles">Life is about using the whole box of crayons.</a>
+        Commenters: Coco Montrese
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Jiggly Caliente
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Violet Chachki
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Miss Fame
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Trinity Taylor
+    </div>
+      <div>
+        <a href="/articles">You betta work.</a>
+        Commenters: Stacy Layne Matthews
+    </div>
+      <div>
+        <a href="/articles">Silence...I&#39;ve made my decision.</a>
+        Commenters: Ariel Versace
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Cynthia Lee Fontaine
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Tyra Sanchez
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Brook Lynn Hytes
+    </div>
+      <div>
+        <a href="/articles">Silence...I&#39;ve made my decision.</a>
+        Commenters: Nina Bonina Brown
+    </div>
+      <div>
+        <a href="/articles">Extravaganza eleganza!</a>
+        Commenters: Farrah Moan
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Bianca Del Rio
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Katya
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Jujubee
+    </div>
+      <div>
+        <a href="/articles">Life is about using the whole box of crayons.</a>
+        Commenters: Trinity K Bonet
+    </div>
+      <div>
+        <a href="/articles">Extravaganza eleganza!</a>
+        Commenters: Ivy Winters
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Milk
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Laganja Estranja
+    </div>
+      <div>
+        <a href="/articles">Silence...I&#39;ve made my decision.</a>
+        Commenters: Asia O&#39;Hara
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Robbie Turner
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Acid Betty
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Jujubee
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Miz Cracker
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Thorgy Thor
+    </div>
+      <div>
+        <a href="/articles">Silence...I&#39;ve made my decision.</a>
+        Commenters: Courtney Act
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Farrah Moan
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Sharon Needles
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Raja
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Jujubee
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Blair St. Clair
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Alexis Mateo
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: BenDeLaCreme
+    </div>
+      <div>
+        <a href="/articles">Must be jelly &#39;cause jam don&#39;t shake.</a>
+        Commenters: Delta Work
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Blair St. Clair
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Shangela Wadley
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Tyra Sanchez
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Kennedy Davenport
+    </div>
+      <div>
+        <a href="/articles">I&#39;m sorry, my dear, but you are up for elimination.</a>
+        Commenters: Pearl
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: BenDeLaCreme
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Willam
+    </div>
+      <div>
+        <a href="/articles">Silence...I&#39;ve made my decision.</a>
+        Commenters: Trinity Taylor
+    </div>
+      <div>
+        <a href="/articles">Must be jelly &#39;cause jam don&#39;t shake.</a>
+        Commenters: Shangela Wadley
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Shea Coulee
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Tyra Sanchez
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Roxxxy Andrews
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Milk
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Sasha Velour
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Courtney Act
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Courtney Act
+    </div>
+      <div>
+        <a href="/articles">Extravaganza eleganza!</a>
+        Commenters: Carmen Carrera
+    </div>
+      <div>
+        <a href="/articles">You betta work.</a>
+        Commenters: Alaska
+    </div>
+      <div>
+        <a href="/articles">Life is about using the whole box of crayons.</a>
+        Commenters: Tyra Sanchez
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Raja
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Jiggly Caliente
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Mimi Imfurst
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Courtney Act
+    </div>
+      <div>
+        <a href="/articles">Silence...I&#39;ve made my decision.</a>
+        Commenters: Miz Cracker
+    </div>
+      <div>
+        <a href="/articles">Extravaganza eleganza!</a>
+        Commenters: Monet X Change
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Bianca Del Rio
+    </div>
+      <div>
+        <a href="/articles">Life is about using the whole box of crayons.</a>
+        Commenters: Courtney Act
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Sasha Velour
+    </div>
+      <div>
+        <a href="/articles">Life is about using the whole box of crayons.</a>
+        Commenters: Jessica Wild
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Ivy Winters
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Ariel Versace
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Chad Michaels
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Monique Heart
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: Asia O&#39;Hara
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Asia O&#39;Hara
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Mimi Imfurst
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Chi Chi DeVayne
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Mayhem Miller
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Aja
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Bob The Drag Queen
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Silky Nutmeg Ganache
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Nina Bonina Brown
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Trinity K Bonet
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Monet X Change
+    </div>
+      <div>
+        <a href="/articles">You betta work.</a>
+        Commenters: Stacy Layne Matthews
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Aja
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Acid Betty
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Willam
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Farrah Moan
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Sasha Velour
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Mercedes Iman Diamond
+    </div>
+      <div>
+        <a href="/articles">Silence...I&#39;ve made my decision.</a>
+        Commenters: Mayhem Miller
+    </div>
+      <div>
+        <a href="/articles">Life is about using the whole box of crayons.</a>
+        Commenters: Stacy Layne Matthews
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Raja
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Ivy Winters
+    </div>
+      <div>
+        <a href="/articles">You betta work.</a>
+        Commenters: Shuga Cain
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Miz Cracker
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Chad Michaels
+    </div>
+      <div>
+        <a href="/articles">Must be jelly &#39;cause jam don&#39;t shake.</a>
+        Commenters: Mayhem Miller
+    </div>
+      <div>
+        <a href="/articles">I&#39;m sorry, my dear, but you are up for elimination.</a>
+        Commenters: Adore Delano
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Raja
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Carmen Carrera
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Eureka
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Joslyn Fox
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Aja
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Tatianna
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Ra&#39;jah O&#39;Hara
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Pearl
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Nina Bonina Brown
+    </div>
+      <div>
+        <a href="/articles">You betta work.</a>
+        Commenters: Joslyn Fox
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Shangela Wadley
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Plastique Tiara
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Peppermint
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Monique Heart
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Shangela Wadley
+    </div>
+      <div>
+        <a href="/articles">I&#39;m sorry, my dear, but you are up for elimination.</a>
+        Commenters: Naomi Smalls
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Aquaria
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Eureka
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Ginger Minj
+    </div>
+      <div>
+        <a href="/articles">Must be jelly &#39;cause jam don&#39;t shake.</a>
+        Commenters: Roxxxy Andrews
+    </div>
+      <div>
+        <a href="/articles">Silence...I&#39;ve made my decision.</a>
+        Commenters: Bob The Drag Queen
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Alyssa Edwards
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Shuga Cain
+    </div>
+      <div>
+        <a href="/articles">Extravaganza eleganza!</a>
+        Commenters: Monique Heart
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Chi Chi DeVayne
+    </div>
+      <div>
+        <a href="/articles">I&#39;m sorry, my dear, but you are up for elimination.</a>
+        Commenters: Scarlet Envy
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Ivy Winters
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Darienne Lake
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Alexis Michelle
+    </div>
+      <div>
+        <a href="/articles">You betta work.</a>
+        Commenters: Sahara Davenport
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Naomi Smalls
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Raja
+    </div>
+      <div>
+        <a href="/articles">Must be jelly &#39;cause jam don&#39;t shake.</a>
+        Commenters: Violet Chachki
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Dida Ritz
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Derrick Barry
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Derrick Barry
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Morgan McMichaels
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Ivy Winters
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Ariel Versace
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Eureka
+    </div>
+      <div>
+        <a href="/articles">I&#39;m sorry, my dear, but you are up for elimination.</a>
+        Commenters: Delta Work
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Roxxxy Andrews
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Scarlet Envy
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Bob The Drag Queen
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Ginger Minj
+    </div>
+      <div>
+        <a href="/articles">Extravaganza eleganza!</a>
+        Commenters: Mayhem Miller
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Delta Work
+    </div>
+      <div>
+        <a href="/articles">Extravaganza eleganza!</a>
+        Commenters: Eureka
+    </div>
+      <div>
+        <a href="/articles">Must be jelly &#39;cause jam don&#39;t shake.</a>
+        Commenters: Silky Nutmeg Ganache
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Carmen Carrera
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Roxxxy Andrews
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: Mercedes Iman Diamond
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Kenya Michaels
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Eureka
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Delta Work
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Miz Cracker
+    </div>
+      <div>
+        <a href="/articles">I&#39;m sorry, my dear, but you are up for elimination.</a>
+        Commenters: Bianca Del Rio
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Miz Cracker
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Sasha Velour
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: Aquaria
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Trixie Mattel
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Valentina
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Aja
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Jessica Wild
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Naomi Smalls
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: A&#39;keria Chanel Davenport
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Gia Gunn
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Manila Luzon
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Shea Coulee
+    </div>
+      <div>
+        <a href="/articles">You betta work.</a>
+        Commenters: Trixie Mattel
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Bob The Drag Queen
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Robbie Turner
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Alyssa Edwards
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Alaska
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Miz Cracker
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Raven
+    </div>
+      <div>
+        <a href="/articles">Silence...I&#39;ve made my decision.</a>
+        Commenters: Ariel Versace
+    </div>
+      <div>
+        <a href="/articles">I&#39;m sorry, my dear, but you are up for elimination.</a>
+        Commenters: Carmen Carrera
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Alaska
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Shuga Cain
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Morgan McMichaels
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Alexis Mateo
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Phi Phi O&#39;Hara
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Joslyn Fox
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Stacy Layne Matthews
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Kameron Michaels
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Derrick Barry
+    </div>
+      <div>
+        <a href="/articles">Must be jelly &#39;cause jam don&#39;t shake.</a>
+        Commenters: Latrice Royale
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Sharon Needles
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Detox
+    </div>
+      <div>
+        <a href="/articles">Life is about using the whole box of crayons.</a>
+        Commenters: Valentina
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: Kennedy Davenport
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: Chi Chi DeVayne
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Thorgy Thor
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Jujubee
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: Naomi Smalls
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Shangela Wadley
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: BenDeLaCreme
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Vanessa Vanjie Mateo
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Nina West
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Aquaria
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Trixie Mattel
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Raja
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Jiggly Caliente
+    </div>
+      <div>
+        <a href="/articles">Sissy that walk.</a>
+        Commenters: Pearl
+    </div>
+      <div>
+        <a href="/articles">I&#39;m sorry, my dear, but you are up for elimination.</a>
+        Commenters: A&#39;keria Chanel Davenport
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Tyra Sanchez
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Derrick Barry
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Alyssa Edwards
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Aquaria
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Trixie Mattel
+    </div>
+      <div>
+        <a href="/articles">Extravaganza eleganza!</a>
+        Commenters: Tyra Sanchez
+    </div>
+      <div>
+        <a href="/articles">You betta work.</a>
+        Commenters: Blair St. Clair
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Morgan McMichaels
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Milk
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Thorgy Thor
+    </div>
+      <div>
+        <a href="/articles">Extravaganza eleganza!</a>
+        Commenters: Acid Betty
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Blair St. Clair
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Adore Delano
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Violet Chachki
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Cynthia Lee Fontaine
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Brook Lynn Hytes
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Willam
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Asia O&#39;Hara
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Mercedes Iman Diamond
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Naomi Smalls
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Miss Fame
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Stacy Layne Matthews
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Violet Chachki
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Raven
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Kameron Michaels
+    </div>
+      <div>
+        <a href="/articles">I&#39;m sorry, my dear, but you are up for elimination.</a>
+        Commenters: Alaska
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Mayhem Miller
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Latrice Royale
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Sahara Davenport
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Aja
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Vanessa Vanjie Mateo
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Ariel Versace
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Alaska
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: Nina West
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Kennedy Davenport
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Trinity Taylor
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Robbie Turner
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Ivy Winters
+    </div>
+      <div>
+        <a href="/articles">Must be jelly &#39;cause jam don&#39;t shake.</a>
+        Commenters: Cynthia Lee Fontaine
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Aja
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Aja
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Asia O&#39;Hara
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Monet X Change
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Chi Chi DeVayne
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Yvie Oddly
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Morgan McMichaels
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Kameron Michaels
+    </div>
+      <div>
+        <a href="/articles">You betta work.</a>
+        Commenters: Silky Nutmeg Ganache
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Courtney Act
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Willam
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Milk
+    </div>
+      <div>
+        <a href="/articles">Life is about using the whole box of crayons.</a>
+        Commenters: Latrice Royale
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Aja
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Trinity K Bonet
+    </div>
+      <div>
+        <a href="/articles">Silence...I&#39;ve made my decision.</a>
+        Commenters: Aquaria
+    </div>
+      <div>
+        <a href="/articles">Silence...I&#39;ve made my decision.</a>
+        Commenters: Morgan McMichaels
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Thorgy Thor
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Sharon Needles
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Derrick Barry
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Raven
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Farrah Moan
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Yara Sofia
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: A&#39;keria Chanel Davenport
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: Jessica Wild
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Trinity K Bonet
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Ginger Minj
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Eureka
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Willam
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Vanessa Vanjie Mateo
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Alyssa Edwards
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Shuga Cain
+    </div>
+      <div>
+        <a href="/articles">I&#39;m sorry, my dear, but you are up for elimination.</a>
+        Commenters: Katya
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Kennedy Davenport
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Chi Chi DeVayne
+    </div>
+      <div>
+        <a href="/articles">She done already done had herses.</a>
+        Commenters: Delta Work
+    </div>
+      <div>
+        <a href="/articles">Must be jelly &#39;cause jam don&#39;t shake.</a>
+        Commenters: Ra&#39;jah O&#39;Hara
+    </div>
+      <div>
+        <a href="/articles">You betta work.</a>
+        Commenters: Acid Betty
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Aja
+    </div>
+      <div>
+        <a href="/articles">Silence...I&#39;ve made my decision.</a>
+        Commenters: Trixie Mattel
+    </div>
+      <div>
+        <a href="/articles">Extravaganza eleganza!</a>
+        Commenters: Mercedes Iman Diamond
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Kameron Michaels
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Nina West
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Silky Nutmeg Ganache
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Kameron Michaels
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Jinkx Monsoon
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Shangela Wadley
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Miz Cracker
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Ra&#39;jah O&#39;Hara
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Courtney Act
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Trinity K Bonet
+    </div>
+      <div>
+        <a href="/articles">You betta work.</a>
+        Commenters: Nina West
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Milk
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Jiggly Caliente
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Phi Phi O&#39;Hara
+    </div>
+      <div>
+        <a href="/articles">Life is about using the whole box of crayons.</a>
+        Commenters: Sahara Davenport
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Mimi Imfurst
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: BenDeLaCreme
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Shangela Wadley
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Courtney Act
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Tatianna
+    </div>
+      <div>
+        <a href="/articles">I&#39;m sorry, my dear, but you are up for elimination.</a>
+        Commenters: Raja
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Mimi Imfurst
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Detox
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Blair St. Clair
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Joslyn Fox
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Kenya Michaels
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Nina Bonina Brown
+    </div>
+      <div>
+        <a href="/articles">Condragulations!</a>
+        Commenters: Jessica Wild
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Willam
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Silky Nutmeg Ganache
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Peppermint
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Trinity Taylor
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Trixie Mattel
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Pandora Boxx
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Pearl
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Chi Chi DeVayne
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Vanessa Vanjie Mateo
+    </div>
+      <div>
+        <a href="/articles">If you can&#39;t love yourself, how in the hell you gonna love somebody else?</a>
+        Commenters: Sasha Velour
+    </div>
+      <div>
+        <a href="/articles">You betta work.</a>
+        Commenters: Manila Luzon
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Cynthia Lee Fontaine
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Farrah Moan
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Jiggly Caliente
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: Trixie Mattel
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Tatianna
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: Alaska
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Monet X Change
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Monet X Change
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Raven
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Naomi Smalls
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: BenDeLaCreme
+    </div>
+      <div>
+        <a href="/articles">Sashay away.</a>
+        Commenters: Jiggly Caliente
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Jinkx Monsoon
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Jinkx Monsoon
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Morgan McMichaels
+    </div>
+      <div>
+        <a href="/articles">Life is about using the whole box of crayons.</a>
+        Commenters: Asia O&#39;Hara
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Delta Work
+    </div>
+      <div>
+        <a href="/articles">Silence...I&#39;ve made my decision.</a>
+        Commenters: A&#39;keria Chanel Davenport
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Derrick Barry
+    </div>
+      <div>
+        <a href="/articles">We&#39;re all born naked and the rest is drag.</a>
+        Commenters: Alyssa Edwards
+    </div>
+      <div>
+        <a href="/articles">Bring back my girls.</a>
+        Commenters: Katya
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Trixie Mattel
+    </div>
+      <div>
+        <a href="/articles">In the great tradition of Paris is Burning, &quot;Get out your Library Cards!&quot;</a>
+        Commenters: Mimi Imfurst
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Delta Work
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: Mayhem Miller
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Katya
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Tatianna
+    </div>
+      <div>
+        <a href="/articles">Prance, I say!</a>
+        Commenters: Mayhem Miller
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Ginger Minj
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Ra&#39;jah O&#39;Hara
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: The Vixen
+    </div>
+      <div>
+        <a href="/articles">Silence...I&#39;ve made my decision.</a>
+        Commenters: Bianca Del Rio
+    </div>
+      <div>
+        <a href="/articles">That&#39;s funny, tell another one.</a>
+        Commenters: Delta Work
+    </div>
+      <div>
+        <a href="/articles">Just between us squirrel friends...</a>
+        Commenters: Blair St. Clair
+    </div>
+      <div>
+        <a href="/articles">Put the bass in your walk.</a>
+        Commenters: Laganja Estranja
+    </div>
+      <div>
+        <a href="/articles">Because reading is what?</a>
+        Commenters: Vanessa Vanjie Mateo
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Yara Sofia
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Tyra Sanchez
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Bob The Drag Queen
+    </div>
+      <div>
+        <a href="/articles">Good luck, and don&#39;t fuck it up.</a>
+        Commenters: Aja
+    </div>
+      <div>
+        <a href="/articles">Now, let the music play!</a>
+        Commenters: Trixie Mattel
+    </div>
+      <div>
+        <a href="/articles">Must be jelly &#39;cause jam don&#39;t shake.</a>
+        Commenters: Yara Sofia
+    </div>
+      <div>
+        <a href="/articles">Now listen, I gotta tell ya...</a>
+        Commenters: Raja
+    </div>
+      <div>
+        <a href="/articles">Extravaganza eleganza!</a>
+        Commenters: Adore Delano
+    </div>
+      <div>
+        <a href="/articles">You&#39;re a winner, baby!</a>
+        Commenters: Scarlet Envy
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Vanessa Vanjie Mateo
+    </div>
+      <div>
+        <a href="/articles">Shante, you stay.</a>
+        Commenters: Pearl
+    </div>
+      <div>
+        <a href="/articles">When the going gets tough, the tough reinvent themselves.</a>
+        Commenters: Shuga Cain
+    </div>
+      <div>
+        <a href="/articles">Hello, hello, hello!</a>
+        Commenters: Laganja Estranja
+    </div>
+      <div>
+        <a href="/articles">The time has come, for you to lip-sync for your life!</a>
+        Commenters: Derrick Barry
+    </div>
+      <div>
+        <a href="/articles">Glamazon!</a>
+        Commenters: Milk
+    </div>
+      <div>
+        <a href="/articles">Don&#39;t be jealous of my boogie.</a>
+        Commenters: Katya
+    </div>
+  </div>
+<% end %>
