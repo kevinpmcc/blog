@@ -5,8 +5,12 @@ This session will primarily be hands-on playing with fragment caching in Rails.
 
 ## Setup  
 <code>git clone https://github.com/kevinpmcc/blog.git && cd blog</code>  
+
 <code>rake db:setup</code>  
+
 <code>bundle install</code>  
+
+<code>rails s</code>
 
 ## Your task
 As the webmaster of the internets favourite Game Of Thrones themed blog you have been seeing an increase in traffic. Your servers are struggling and users are complaining that sometimes its take almost half a second to see a page! You have been hearing about caching and want to see if you could benefit from it on the articles#index page. 
