@@ -1,16 +1,19 @@
-<h1>All Articles</h1>
-<% @articles.each do |article| %>
-  <div>
-    <%= link_to article.title, article_path(article) %>
-    <br>
-    <%= link_to 'Edit', edit_article_path(article) %>
-    <p>
-    Commenters: 
-    <% article.comments.each do |comment| %>
-      <%= comment.nice_commenter %>, 
-    <% end %>
-    </p>
-  </div>
-  <hr>
+<% cache @articles do %>
+  <h1>All Articles</h1>
+  <%= react_component("PageTitle", { title: "All Articles more" }, { prender: true }) %> 
+  <% @articles.each do |article| %>
+    <div>
+      <%= link_to article.title, article_path(article) %>
+      <br>
+      <%= link_to 'Edit', edit_article_path(article) %>
+      <p>
+      Commenters: 
+      <% article.comments.each do |comment| %>
+        <%= comment.nice_commenter %>, 
+      <% end %>
+      </p>
+    </div>
+    <hr>
+  <% end %>
 <% end %>
 
