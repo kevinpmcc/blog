@@ -29,7 +29,7 @@ Lets see how fast you can get the page to load under the following conditions us
 
 1. Loading /articles page when nothing has changed.
 
-2. Loading /articles when a new article has been posted (/articles/new)  
+2. Loading /articles when a new article has been posted (/articles/new make sure the new article appears!)  
 
 3. Loading /articles when an article has its title changed  (edit link)
 
