@@ -10,11 +10,12 @@ This session will primarily be hands-on playing with fragment caching in Rails.
 
 <code>rake db:setup</code>  
 
-<code>rails s</code>
+<code>rails dev:cache</code>
+This will turn on caching which by default is off when running rails in development environment.
 
-SUPER IMPORTANT STEP!!!  
-<code>rails dev:cache</code>  
-This will turn on caching which by default is off when running rails in development environment.  
+<code>rails s</code>
+  
+  
 
 ### errors? 
 if you get 'find_spec_for_exe': can't find gem bundler (>= 0.a) try
