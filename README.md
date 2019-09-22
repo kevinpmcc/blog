@@ -50,5 +50,3 @@ These sections contain everything we need for this task.
 What do you imagine the cache method in Rails looks like?  
 
 What does the cache store look like, what is the key value pair?  
-
-Looking at our PDP page how many places can we see that could potentially be cached and what would their keys be based on?  
