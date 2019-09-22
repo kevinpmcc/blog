@@ -24,7 +24,7 @@ if you get 'find_spec_for_exe': can't find gem bundler (>= 0.a) try
 As the webmaster of the internets favourite Game Of Thrones themed blog you have been seeing an increase in traffic. Your servers are struggling and users are complaining that sometimes its take almost half a second to see a page! You have been hearing about caching and want to see if you could benefit from it on the articles#index page. 
 
 
-Lets see how fast you can get the page to load under the following conditions using only caching and caching related code changes. No other optimizations.
+Lets see how fast you can get the page to load under the following conditions using only caching and caching related code changes. No other optimizations. Add your cache blocks as described in [Fragment Caching Rails Guide](https://guides.rubyonrails.org/caching_with_rails.html#fragment-caching) to app/views/articles/index.html.erb
 
 
 1. Loading /articles page when nothing has changed.
