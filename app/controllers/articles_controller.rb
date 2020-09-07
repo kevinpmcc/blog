@@ -1,6 +1,8 @@
 class ArticlesController < ApplicationController
   def new
-    @article = Article.new
+    session[:article_params] ||= {}
+    @article = Article.new(session[:article_params])
+    @article.current_step = session[:article_step]
   end
 
   def index
@@ -8,10 +10,26 @@ class ArticlesController < ApplicationController
   end
 
   def create
-    @article = Article.new(article_params)
-  
-    @article.save
-    render :new
+    session[:article_params].deep_merge!(params[:article]) if params[:article]
+    @article = Article.new(session[:article_params])
+    @article.current_step = session[:article_step]
+    if @article.valid?
+      if params[:back_button]
+        @article.previous_step
+      elsif @article.last_step?
+        @article.save 
+      else
+        @article.next_step
+      end
+      session[:article_step] = @article.current_step
+    end
+    if @article.new_record?
+      render "new"
+    else
+      session[:article_step] = session[:article_params] = nil
+      flash[:notice] = "article saved!"
+      redirect_to @article
+    end
   end
 
   def edit

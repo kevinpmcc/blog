@@ -2,17 +2,19 @@
 
 
 <%= form_for @article, url: articles_path, local: true do |form| %>
-  <p>
+  <% if @article.first_step? %>
+    <p>
     <%= form.label :title %><br>
     <%= form.text_field :title %>
-  </p>
- 
-  <p>
+    </p>
+  <% end %> 
+  <% if @article.last_step? %>
+    <p>
     <%= form.label :text %><br>
     <%= form.text_area :text %>
-  </p>
- 
+    </p>
+  <% end %> 
   <p>
-    <%= form.submit %>
+  <%= form.submit %>
   </p>
 <% end %>
