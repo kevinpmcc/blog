@@ -1,7 +1,7 @@
 <h1>New Article</h1>
 
 
-<%= form_for @article, url: articles_path, local: true do |form| %>
+<%= form_for @article, url: articles_path, html: { class: "kev" } do |form| %>
   <p>
     <%= form.label :title %><br>
     <%= form.text_field :title %>
@@ -13,6 +13,25 @@
   </p>
  
   <p>
-    <%= form.submit %>
+  <%= form.submit 'Remote', class: "sandra"  %>
+  </p>
+  <p>
+
+  <%= form.submit 'Not remote'  %>
   </p>
 <% end %>
+
+ <script>
+function handleRemoteFormRequest() {
+  const button = document.getElementsByClassName("sandra")[0]
+  button.addEventListener("click", (event) => {
+    event.preventDefault()
+    const form = document.getElementsByClassName("kev")[0]
+    form.dataset.remote = "true"
+    console.log('yoyoyoyoo')
+    Rails.fire(form, "submit")
+  })
+}
+
+handleRemoteFormRequest()
+ </script>
