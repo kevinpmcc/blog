@@ -9,16 +9,17 @@ class ArticlesController < ApplicationController
   end
 
   def create
-    binding.pry
     @article = Article.new(article_params)
-  
+
     @article.save
-    if false
-      render :new
-    else
+    # respond with JS if its xhr request (remote: true)
+    if request.xhr?
       respond_to do |format|
         format.js  {}
       end
+      # otherwise redirect
+    else
+      redirect_to "/articles"
     end
   end
 
