@@ -11,7 +11,15 @@ class ArticlesController < ApplicationController
     @article = Article.new(article_params)
   
     @article.save
-    render :new
+    # respond with JS if its xhr request (remote: true)
+    if request.xhr?
+      respond_to do |format|
+        format.js  {}
+      end
+      # otherwise redirect
+    else
+      redirect_to "/articles"
+    end
   end
 
   def edit
