@@ -1,4 +1,5 @@
 class ArticlesController < ApplicationController
+
   def new
     @article = Article.new
   end
@@ -8,10 +9,17 @@ class ArticlesController < ApplicationController
   end
 
   def create
+    binding.pry
     @article = Article.new(article_params)
   
     @article.save
-    render :new
+    if false
+      render :new
+    else
+      respond_to do |format|
+        format.js  {}
+      end
+    end
   end
 
   def edit

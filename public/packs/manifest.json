@@ -1,0 +1,44 @@
+{
+  "application.js": "/packs/js/application.js",
+  "application.js.map": "/packs/js/application.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/vendors~application~hello_react.js",
+        "/packs/js/vendors~application.js",
+        "/packs/js/application.js"
+      ],
+      "js.map": [
+        "/packs/js/vendors~application~hello_react.js.map",
+        "/packs/js/vendors~application.js.map",
+        "/packs/js/application.js.map"
+      ]
+    },
+    "hello_react": {
+      "js": [
+        "/packs/js/vendors~application~hello_react.js",
+        "/packs/js/hello_react.js"
+      ],
+      "js.map": [
+        "/packs/js/vendors~application~hello_react.js.map",
+        "/packs/js/hello_react.js.map"
+      ]
+    },
+    "server_rendering": {
+      "js": [
+        "/packs/js/server_rendering.js"
+      ],
+      "js.map": [
+        "/packs/js/server_rendering.js.map"
+      ]
+    }
+  },
+  "hello_react.js": "/packs/js/hello_react.js",
+  "hello_react.js.map": "/packs/js/hello_react.js.map",
+  "server_rendering.js": "/packs/js/server_rendering.js",
+  "server_rendering.js.map": "/packs/js/server_rendering.js.map",
+  "vendors~application.js": "/packs/js/vendors~application.js",
+  "vendors~application.js.map": "/packs/js/vendors~application.js.map",
+  "vendors~application~hello_react.js": "/packs/js/vendors~application~hello_react.js",
+  "vendors~application~hello_react.js.map": "/packs/js/vendors~application~hello_react.js.map"
+}
