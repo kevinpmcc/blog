@@ -6,7 +6,7 @@ class ArticlesController < ApplicationController
   def index
     @articles = Article.order(created_at: :desc)
   end
-  
+
   def create
     @article = Article.new(article_params)
   
