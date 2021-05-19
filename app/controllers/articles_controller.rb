@@ -18,11 +18,16 @@ class ArticlesController < ApplicationController
     @article = Article.find(params[:id])
   end
 
-
-
   def update
     @article = Article.find(params[:id])
     @article.update(article_params)
+    redirect_to articles_path  
+  end
+
+  def bulk_create_articles
+    articles_params[:articles].each do |x|
+      Article.create(x)
+    end
     redirect_to articles_path  
   end
 
@@ -33,4 +38,9 @@ class ArticlesController < ApplicationController
   def article_params
     params.require(:article).permit(:title, :text)
   end
+
+  def articles_params
+    params.permit(articles: [:title, :text])
+  end
+
 end

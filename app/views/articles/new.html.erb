@@ -16,3 +16,11 @@
     <%= form.submit %>
   </p>
 <% end %>
+
+<%= form_tag bulk_create_articles_url do |form| %>
+  <% 4.times do |i|%>
+    Title : <%= text_area_tag :title, "", :name => "articles[][title]" %>
+    Text : <%= text_field_tag :text, "", :name => "articles[][text]" %>
+  <% end %>
+  <%= submit_tag "Submit" %>
+<% end %>
